@@ -1,10 +1,13 @@
 <script>
-    let person = {
+
+    let { person ={
         fullName: "Phill Connors",
-        favouriteSong: "I Got You Babe", 
+        favouriteSong: "I Got You Babe",
         petsName: "Punxsutawney Phil"
-    }
-     
+        } 
+    } = $props();
+
+
 </script>
 <section>
     <h2>{person.fullName}</h2>

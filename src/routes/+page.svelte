@@ -1,10 +1,16 @@
 <script>
     import Card from '$lib/components/Card.svelte';
+    let person = {
+        fullName: "Phill Connors",
+        favouriteSong: "I Got You Babe", 
+        petsName: "Punxsutawney Phil"
+    }
 </script>
 
 <main>
 <!--  -->
-    <Card />
+    {#each }
+    <Card person={person}/>
     <Card />
     <Card />
 </main>
