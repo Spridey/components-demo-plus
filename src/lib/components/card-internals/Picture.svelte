@@ -2,11 +2,11 @@
     import billm from '$lib/assets/images/groundhog-day.webp';
 </script>
 
-<img src="{billm}" alt="Phil Connors">
+<img src="{billm}" alt="Phil n word">
 
 <style>
     img {
-            width: 200px;
+            width: 20px;
             aspect-ratio: 1 / 1;
             object-fit: cover;
             object-position: center;
