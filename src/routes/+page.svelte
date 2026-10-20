@@ -4,6 +4,8 @@
     let { data } = $props();
     let userList = data.users.users;
 
+    $inspect(userList);
+
 
 </script>
 

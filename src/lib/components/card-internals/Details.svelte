@@ -14,10 +14,8 @@
 <section>
     <h2>{person.fullName}</h2>
     <dl>
-        <dt>Favourite song:</dt>
-        <dd>{person.favouriteSong}</dd>
-        <dt>Pet's name:</dt>
-        <dd>{person.petsName}</dd>
+        <dt>Address:</dt>
+        <dd>{person.address.address}</dd>
         <dt>Address:</dt>
         <dd>{person.address.address}</dd>
     </dl>
