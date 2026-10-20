@@ -7,7 +7,7 @@
 </script>
 
 <article class="card">
-    <Picture />
+    <Picture person={person}/>
     <Details person={person}/>
 </article>
 

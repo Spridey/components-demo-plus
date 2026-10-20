@@ -3,7 +3,9 @@
     let { person ={
         fullName: "Phill Connors",
         favouriteSong: "I Got You Babe",
-        petsName: "Punxsutawney Phil"
+        petsName: "Punxsutawney Phil",
+        image: "https://dummyjson.com/icon/emilys/128",
+        address: {address: "123 sesame st"}
         } 
     } = $props();
 
@@ -16,6 +18,8 @@
         <dd>{person.favouriteSong}</dd>
         <dt>Pet's name:</dt>
         <dd>{person.petsName}</dd>
+        <dt>Address:</dt>
+        <dd>{person.address.address}</dd>
     </dl>
 </section>
 
