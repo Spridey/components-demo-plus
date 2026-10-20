@@ -1,5 +1,9 @@
 <script>
     import Card from '$lib/components/Card.svelte';
+
+    let { data } = $props();
+    let userList = data.users.users;
+
     let people = [{
         fullName: "Phill Connors",
         favouriteSong: "I Got You Babe", 
